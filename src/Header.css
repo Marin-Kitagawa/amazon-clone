@@ -1,0 +1,74 @@
+.header{
+  background-color: #131921;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  /* z-index:100 => This takes priority */
+}
+.header__logo{
+  width: 100px;
+  margin-top: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.header__options{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  /* margin space from the outside (appended)*/
+  /* padding from within the element */
+}
+
+.header__optionBasket{
+  display: flex;
+  align-items: center;
+}
+
+.header__basketCount{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.header__optionsLineOne{
+  font-size: 10px;
+}
+.header__optionsLineTwo{
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.header__nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header__link{
+  color: white;
+  text-decoration: none;
+  /* text-decoration: none will remove the underline or any decoration in the text/link */
+}
+
+.header__search{
+  display: flex;
+  flex: 1;
+  /* flex: 1; means try to use as much as space as you can */
+
+}
+
+.header__searchInput{
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+
+.header__searchIcon{
+  background-color: #cd9042;
+  padding: 5px;
+  height: 22px !important;
+}
